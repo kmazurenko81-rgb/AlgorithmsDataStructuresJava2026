@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // example below, replace it with your solution
+        Scanner in = new Scanner(System.in);
+        while (in.hasNext()){
+            int n=in.nextInt();
+            int m=in.nextInt();
+            int p=2*(m+n);
+            int s=m*n;
+            System.out.println(p+" "+s);
+        }
+
+
+
+
+    }
+}
